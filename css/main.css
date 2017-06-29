@@ -1,6 +1,7 @@
 body {
     background: white;
     height: 1350px;
+    
 }
 #section-1 {
     display: -webkit-flex;
@@ -321,3 +322,16 @@ ul {
     outline: rgba(0, 0, 0, 0.85) none 0px;
 }/*#A_11*/
 
+#team-list {
+    display: -webkit-flex;
+	font-size: 30px;
+	font-family: 'Spectral', serif;
+	-webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(https://media.giphy.com/media/109synC4N3qsuc/giphy.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+ text-align: center;
+ align-items: center;
+ justify-content: center;
+}
