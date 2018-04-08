@@ -93,7 +93,7 @@ font-family: 'Average', serif;
     left: 0px;
     bottom: 250px;
     color: black;
-    font-size: 69px;
+    font-size: 20px;
     overflow: visible;
     overflow-y: visible;
     z-index: 1;
@@ -374,10 +374,6 @@ li {
     cursor: pointer;
 }
 
-#motorcycle:hover {
-   background-image: url('1.jpg');
-}
-
 #outro {
     color: black;
     font-family: 'Average', serif;
@@ -386,4 +382,14 @@ li {
     padding-right: 100px;
     padding-bottom: 60px;
     padding-top: 30px;
+}
+
+#studioid {
+    height: 300px;
+
+}
+
+#studioid:hover {
+    background-image: url('https://nerdist.com/wp-content/uploads/2018/01/Rusty-Spotted-Cat-1-BBC-Big-Cats.jpg');
+    height: 300px;
 }
