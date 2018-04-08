@@ -360,3 +360,7 @@ ul {
 li {
     cursor: pointer;
 }
+
+#motorcycle:hover {
+   background-image: url('1.jpg');
+}
