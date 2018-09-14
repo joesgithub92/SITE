@@ -709,13 +709,15 @@ max-width: 100vw;
 }
 
 #haze-video {
+    display: flex;
     z-index: 1;
     padding-right: 10px;
     z-index: 1;
+    max-width: 100vw;
 }
 
 #haze-image1 {
-    display: inline;
+    display: flex;
     position: relative;
     margin-left: 10px;
     margin-top: -60px;
@@ -723,7 +725,7 @@ max-width: 100vw;
 }
 
 #haze-image2 {
-    display: inline;
+    display: flex;
     position: relative;
     margin-left: -150px;
     margin-top: -40px;
@@ -731,7 +733,7 @@ max-width: 100vw;
 }
 
 #haze-image3 {
-    display: inline;
+    display: flex;
     position: relative;
     margin-left: -280px;
     margin-top: 170px;
@@ -774,24 +776,27 @@ max-width: 100vw;
 }
 
 #augment-image1 {
-    display: inline;
+    display: flex;
     position: relative;
     margin-left: 10px;
     margin-top: -100px;
     z-index: 5;
+    max-width: 100vw;
 }
 
 #augment-image2 {
-     display: inline;
+     display: flex;
     position: relative;
     margin-left: -150px;
     margin-top: -10px;
     z-index: 5;
+    max-width: 100vw;
 }
 
 /* conde */
 
 .nextgen {
+   display: -webkit-flex;
    margin-top: 180px;
     margin-left: 2%;
     display: flex;
@@ -819,8 +824,10 @@ max-width: 100vw;
 }
 
 #nextgen-video {
+    display: flex;
     padding-right: 10px;
-    max-width: 100%; 
+    max-width: 50%;
+    height: auto;
     min-width: 10px;
 
 }
