@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head id="header">
+	    <link href="css/default.css" rel="stylesheet">
+		<link href="js/main.js" rel="javascript">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Average" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,400,500" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+	</head>
+	<body>
+	    
+	    <p id="girl">my girlfriend left me</p>
+	    <input type="text" name="password" />
+	    <div id="question">
+<a href="index.html" onclick="javascript:return validatePass()">enter your password and click this</a>
+</div>
+<script id="password">
+function validatePass(){
+    if(document.getElementById('password').value == 'joe'){
+        return true;
+    }else{
+        alert('nah dog');
+        return false;
+    }
+}
+</script>
+	    
+
+	</body>
+</html>
+

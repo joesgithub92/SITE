@@ -25,7 +25,7 @@ body {
 	 display: -webkit-flex;
 	 font-size: 1.34em;
      font-family: 'Average', serif;
-	 -webkit-text-fill-color: transparent;
+	 -webkit-text-fill-color: blue;
      background: -webkit-linear-gradient(transparent, transparent),
      url(https://media.giphy.com/media/kj2TTLhvTvBte/giphy.gif) repeat;
      background: -o-linear-gradient(transparent, transparent);
